@@ -1,0 +1,51 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER**/
+#header-nav {
+	background-color: blue;
+	border-radius: 0;
+	border: solid;
+	border-color: black;
+}
+
+.navbar-brand h1{
+	color: #000;
+	font-size: 1.5em;
+	margin-top: 0;
+	line-height: .75;
+}
+
+#nav-list {
+	margin-top: 10px;	
+}
+
+#nav-list a {
+	color: #000;
+	font-size: 1.2em;
+	border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000;
+}
+
+h1 {
+	color: #000;
+}
+
+#main-content {
+	color: #000;
+	background-color: blue;
+	margin: 10px;
+}
+
+@media (max-width: 767px)  {
+	#main-content {
+		margin: 3em;
+	}
+}
